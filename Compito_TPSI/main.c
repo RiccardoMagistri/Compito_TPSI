@@ -30,24 +30,28 @@
         scanf("%d", &num2);
             ris = differenza(num1, num2);
             printf("%d - %d = %f\n", num1, num2, ris);
+            break;
         case 'm':
         printf("Inserisci i numeri da operare: \n");
           scanf("%d", &num1);
         scanf("%d", &num2);
             ris = moltiplicazione(num1, num2);
             printf("%d * %d = %f\n", num1, num2, ris);
+            break;
         case 'i': //Division
         printf("Inserisci i numeri da operare: \n");
           scanf("%d", &num1);
         scanf("%d", &num2);
             ris = divisione(num1, num2);
             printf("%d / %d = %f\n", num1, num2, ris);
+            break;
         case 'p':
         printf("Inserisci i numeri da operare: \n");
           scanf("%d", &base);
         scanf("%d", &esponente);
             ris = potenze(base, esponente);
             printf("%d ^ %d = %f\n", base, esponente, ris);
+            break;
 
         default:
             printf("Nessuna operazioni riconosciuta\n");
